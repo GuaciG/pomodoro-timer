@@ -1,4 +1,4 @@
-# Pomodoro Clock App / 25 + 5 Clock App 
+# 🍅 Pomodoro Clock App / 25 + 5 Clock App 🍅
 
 This project was built as a challenge on freecodecamp course. It was part of Front End Libraries Certification in FreeCodeCamp.
 
@@ -66,7 +66,7 @@ This project was built as a challenge on freecodecamp course. It was part of Fro
 
 
 
-You can take a look at this project in [github]()
+You can take a look at this project in [github](https://guacig.github.io/pomodoro-timer/)
 
 Also you can find the working demo in [codepen](https://codepen.io/GuaciG/full/yLOjaZN)
 
