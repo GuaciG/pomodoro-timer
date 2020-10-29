@@ -1,0 +1,19 @@
+.Controls > button {
+    background-color: #799351;
+    color: #fff;
+    border-radius: 3px;
+    border: none;
+    padding: 10px 25px;
+    margin: 4px 5px;
+}
+
+button:hover {
+    background-color: #fe7171;
+    outline: 1px solid #fff;
+    outline-offset: -1px;
+    cursor: pointer;
+}
+
+i {
+    font-size: 20px;
+}

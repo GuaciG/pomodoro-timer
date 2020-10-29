@@ -1,0 +1,23 @@
+footer {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #333;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fff;
+}
+
+
+@media only screen and (max-width: 480px) {
+
+    footer {
+        font-size: 12px;
+    }
+    
+}

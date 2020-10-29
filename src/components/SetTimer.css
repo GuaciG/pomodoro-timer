@@ -1,0 +1,31 @@
+.SetTimer-Buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+
+.SetTimer-Buttons > button {
+    background-color: #799351;
+    color: #fff;
+    border-radius: 3px;
+    border: none; 
+    padding: 10px 25px;
+    margin: 4px 15px;
+}
+
+.Timer > #timer-label, #time-left {
+    margin: 0;
+}
+
+
+@media only screen and (max-width: 480px) {
+
+    .SetTimers {
+        margin: 10px 0;
+    }
+
+    .SetTimer-Buttons {
+        justify-content: center;
+    }
+}    

@@ -1,0 +1,12 @@
+#heading {
+    font-family: 'Rammetto One', cursive;
+    margin-bottom: 15px; 
+}
+
+
+@media only screen and (max-width: 480px) {
+
+    #heading {
+        font-size: 6vw;
+    }
+}
