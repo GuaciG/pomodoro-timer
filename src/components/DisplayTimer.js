@@ -1,4 +1,5 @@
 import React from 'react';
+import './DisplayTimer.css';
 
 const DisplayTimer = ({ modeType, time }) => {
     return(
