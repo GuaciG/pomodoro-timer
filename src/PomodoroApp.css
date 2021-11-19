@@ -1,35 +1,37 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .app-wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 40px;
-    font-weight: bold;
-    background-color: #ffa36c;
-    border: 5px solid #799351;
-    box-shadow: 0 10px 30px #993333;
-    border-radius: 25px;
-    width: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+  font-weight: bold;
+  background-color: #ffa36c;
+  border: 5px solid #799351;
+  box-shadow: 0 10px 30px #993333;
+  border-radius: 25px;
+  width: 700px;
 }
 
 .timers-wrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 40px;
 }
-
-
 
 @media only screen and (max-width: 480px) {
+  .app-wrapper {
+    width: 300px;
+  }
 
-    .app-wrapper {
-        width: 300px;
-    }
-
-    .timers-wrapper {
-        display: flex;
-        flex-direction: column;
-    }
-
+  .timers-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
 }
-
