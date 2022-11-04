@@ -1,23 +1,21 @@
 footer {
-    margin-top: 20px;
-    font-size: 14px;
-    color: #333;
+	margin-top: 20px;
+	font-size: 14px;
+	color: #333;
+	width: 100%;
 }
 
 a {
-    color: #333;
-    text-decoration: none;
+	color: #333;
+	text-decoration: none;
 }
 
 a:hover {
-    color: #fff;
+	color: #fff;
 }
 
-
 @media only screen and (max-width: 480px) {
-
-    footer {
-        font-size: 12px;
-    }
-    
+	footer {
+		font-size: 12px;
+	}
 }
