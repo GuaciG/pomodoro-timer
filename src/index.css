@@ -1,20 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Kufam:wght@400;600&family=Rammetto+One&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Kufam:wght@400;600&family=Rammetto+One&display=swap");
 
 * {
-    box-sizing: border-box;
-    
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
 body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    font-family: 'Kufam', cursive;
-    background-color: #fe7171;
-    color: #000;
-    height: 100vh;  
+	text-align: center;
+	margin: 0 auto;
+	font-family: "Kufam", cursive;
+	background-color: #fe7171;
+	color: #000;
+	height: 100vh;
+}
+
+#root {
+	height: 100%;
 }
